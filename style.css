@@ -19,6 +19,8 @@ h3 { font-size: 16px; margin: 20px 0 4px; }
 .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; margin: 16px 0; }
 .card h3 { margin-top: 0; }
 .badge { display: inline-block; margin: 8px 0; padding: 10px 20px; border-radius: 12px; background: var(--line); color: var(--sub); font-weight: 700; font-size: 15px; line-height: 1.5; cursor: default; }
+a.badge.store { background: var(--accent); color: var(--bg); text-decoration: none; cursor: pointer; }
+a.badge.store:hover { opacity: 0.9; }
 ul { padding-left: 1.3em; }
 li { margin: 4px 0; }
 .lang { margin-top: 56px; padding-top: 8px; border-top: 2px solid var(--line); }
